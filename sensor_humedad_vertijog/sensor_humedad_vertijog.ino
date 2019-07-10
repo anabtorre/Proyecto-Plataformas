@@ -6,8 +6,8 @@ int V;
 int contador = 0;
 long Rsensor;
 long Resk;
-unsigned long tr = 1;            //Tiempo de regado  en minutos                                   //AJUSTAR
-unsigned long tespera = 10;      //Tiempo espera en minutos                                       //AJUSTAR
+unsigned float tr = 1;            //Tiempo de regado  en minutos                                   //AJUSTAR
+unsigned float tespera = 10;      //Tiempo espera en minutos                                       //AJUSTAR
 const int rr = 15;               //Resistencia (en kohmios) a partir de la cual empieza a regar   //AJUSTAR
 
 void setup() {
