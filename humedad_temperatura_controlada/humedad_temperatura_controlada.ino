@@ -11,13 +11,13 @@ int tempMin=22;
 int humMin= 80;
 int humMax=90;
 
-const int relayBombaHg = 2;                     //Pin en el que está conectado el relay de la Bomba que se activa o no segun medicion del Higrometro            
-const int relayAbanico=1;                      //Pin en el que está conectado el relay del abanico que se enciende o no segun medicion de Temperatura
-const int relayCalentador=3;
+const int relayBombaHg = 6;                     //Pin en el que está conectado el relay de la Bomba que se activa o no segun medicion del Higrometro            
+const int relayAbanico=5;                      //Pin en el que está conectado el relay del abanico que se enciende o no segun medicion de Temperatura
+const int relayCalentador=7;
                                     
-int ledAbanico=13;                   //LED que debe encenderse si abanico esta encendido
+int ledAbanico=11;                   //LED que debe encenderse si abanico esta encendido
 int ledBomba=12;                     //LED que debe encenderse si bomba de riego esta encendida
-int ledCalentador= 11;  //*****************VERIFICAR PIN *********** //LED que debe encenderse si calentador esta encendido
+int ledCalentador= 13;  //*****************VERIFICAR PIN *********** //LED que debe encenderse si calentador esta encendido
 
 //////////////////////////////////////////////////
 
