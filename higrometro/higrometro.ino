@@ -29,8 +29,8 @@ void loop()
   Serial.print("Humedad:");
   Serial.print (lecturaHigrom);
   Serial.println("%");
-  //Si la humedad baja del 20%, enciende la bomba, sino se mantiene apagada
-  if (lecturaHigrom < 20){
+  //Si la humedad baja del 80%, enciende la bomba, sino se mantiene apagada
+  if (lecturaHigrom < 80){
     //aqui va a encender la bomba
     digitalWrite(relayBombaHg,LOW); //En LOW enciende
     digitalWrite(ledBomba,HIGH); 
