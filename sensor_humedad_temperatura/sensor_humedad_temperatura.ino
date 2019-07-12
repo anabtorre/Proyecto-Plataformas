@@ -23,7 +23,6 @@ void loop() {
  
  float h = dht.readHumidity();       //Se lee la humedad.Se establece h de variable de humedad relativa.
  float t = dht.readTemperature();    //Se lee la temperatura. Se establece t de variable de temperatura.
- // check if returns are valid, if they are NaN (not a number) then something went wrong!
  
  // || es un "o"
 //Con la funcion isnan controlamos que el valor recibido del sensor sea un número, sino dara error
